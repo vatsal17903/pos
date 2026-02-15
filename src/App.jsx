@@ -12,7 +12,7 @@ import './styles/global.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/POS/">
       <div className="app-container">
         <Sidebar />
         <main className="main-content">
